@@ -6,3 +6,8 @@ edition = "2021"
 
 [dependencies]
 tokio = {version = "1.22", features = ["full"]}
+log = "0.4.17"
+env_logger = "0.10.0"
+clap = {version="4.1.1", features = ["derive"]}
+colorful = "0.2.2"
+rayon = "1.6.1"
